@@ -22,3 +22,16 @@
    - spark.yarn.executor.memoryOverhead
 
 4. 数据倾斜解决思路：加盐打散、提高并行度、小表广播。
+
+## 集群架构
+
+## 集群服务定妆照
+
+### cat1: 主节点
+![cat1-jps](images/cat1.png)
+
+### cat2: 从节点
+![cat2-jps](images/cat2.png)
+
+### cat3: 从节点
+![cat3-jps](images/cat3.png)
